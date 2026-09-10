@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拼团商城 - 溜溜梅/奥利奥</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">🛒</span>
+                <span class="logo-text">拼团团拼团</span>
+            </div>
+            <div class="header-right">
+                <div class="user-info" id="userInfo">
+                    <span class="user-avatar">👤</span>
+                    <span class="user-name" id="userName">游客</span>
+                </div>
+                <a href="order-list.html" class="nav-link">我的订单</a>
+                <button class="logout-btn" id="logoutBtn">退出</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 商品选择栏 -->
+    <div class="product-selector">
+        <div class="selector-container">
+            <div class="selector-item active" data-goods="liuliumei" onclick="switchProduct('liuliumei')">
+                <span class="selector-icon">🍒</span>
+                <span>溜溜梅</span>
+            </div>
+            <div class="selector-item" data-goods="aoliao" onclick="switchProduct('aoliao')">
+                <span class="selector-icon">🍪</span>
+                <span>奥利奥</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+        <!-- 商品图片轮播 -->
+        <div class="product-gallery">
+            <div class="gallery-container" id="galleryContainer">
+                <!-- 动态加载图片 -->
+            </div>
+            <div class="gallery-dots" id="galleryDots"></div>
+            <button class="gallery-btn prev" id="prevBtn">❮</button>
+            <button class="gallery-btn next" id="nextBtn">❯</button>
+        </div>
+
+        <!-- 商品信息 -->
+        <section class="product-section">
+            <div class="product-header">
+                <h1 class="product-title" id="productTitle">溜溜梅</h1>
+                <div class="product-tags" id="productTags">
+                    <span class="tag tag-hot">🔥 热销</span>
+                    <span class="tag tag-discount">💰 限时优惠</span>
+                </div>
+            </div>
+
+            <div class="product-desc" id="productDesc">
+                酸甜可口的溜溜梅，开胃解馋，限时拼团优惠中
+            </div>
+
+            <!-- 价格信息 -->
+            <div class="price-section" id="priceSection">
+                <div class="price-box">
+                    <div class="price-label">拼团价</div>
+                    <div class="price-value">
+                        <span class="currency">¥</span>
+                        <span class="price-number" id="groupPrice">8.80</span>
+                    </div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">原价</div>
+                    <div class="price-value original">
+                        <span class="currency">¥</span>
+                        <span class="price-number" id="originalPrice">15.00</span>
+                    </div>
+                </div>
+                <div class="price-box">
+                    <div class="price-label">已优惠</div>
+                    <div class="price-value saving">
+                        <span class="currency">¥</span>
+                        <span class="price-number" id="saveAmount">6.20</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 拼团统计 -->
+            <div class="stats-section">
+                <div class="stat-item">
+                    <div class="stat-value" id="statTeamCount">156</div>
+                    <div class="stat-label">开团队伍</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statCompleteCount">89</div>
+                    <div class="stat-label">成团队伍</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statUserCount">312</div>
+                    <div class="stat-label">参团人数</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 拼团列表 -->
+        <section class="group-section">
+            <div class="section-header">
+                <h2 class="section-title">💪 正在拼团</h2>
+                <span class="section-subtitle">多人参与，优惠共享</span>
+            </div>
+
+            <div class="group-list" id="groupList">
+                <!-- 动态加载拼团数据 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部操作栏 -->
+    <div class="action-bar">
+        <div class="action-left">
+            <a href="order-list.html" class="icon-btn">
+                <span class="icon">📦</span>
+                <span>订单</span>
+            </a>
+            <a href="#" class="icon-btn">
+                <span class="icon">💬</span>
+                <span>客服</span>
+            </a>
+        </div>
+        <div class="action-right">
+            <button class="action-btn buy-alone" id="buyAloneBtn">
+                <span class="btn-label">单独购买</span>
+                <span class="btn-price" id="alonePrice">¥15.00</span>
+            </button>
+            <button class="action-btn group-buy primary" id="groupBuyBtn">
+                <span class="btn-label">开团购买</span>
+                <span class="btn-price" id="groupPriceBtn">¥8.80</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- 支付弹窗 -->
+    <div class="modal-overlay" id="paymentModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">×</button>
+            <div class="modal-header">
+                <h3>请扫码支付</h3>
+            </div>
+            <div class="modal-body">
+                <div class="payment-info">
+                    <div class="payment-amount">
+                        <span class="label">支付金额</span>
+                        <div class="amount">
+                            <span class="currency">¥</span>
+                            <span id="paymentAmountValue">0.00</span>
+                        </div>
+                    </div>
+                    <div class="qr-code-container">
+                        <div class="qr-placeholder">
+                            <span class="qr-icon">📱</span>
+                            <p>模拟支付</p>
+                        </div>
+                        <p class="qr-tip">点击"支付完成"按钮完成支付</p>
+                    </div>
+                    <div class="order-info" id="orderInfo">
+                        <div class="info-row">
+                            <span class="label">商品：</span>
+                            <span class="value" id="orderProductName">-</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">订单号：</span>
+                            <span class="value" id="orderTradeNo">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-cancel" id="cancelPaymentBtn">取消支付</button>
+                <button class="btn btn-primary" id="completePaymentBtn">支付完成</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 消息提示 -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

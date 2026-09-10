@@ -1,0 +1,124 @@
+26-05-01.16:31:34.490 [main            ] INFO  Application            - Starting Application using Java 17.0.17 on Sinai95 with PID 13004 (E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes started by 张萌 in E:\javastudy\group-buy-market-all)
+26-05-01.16:31:34.493 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-01.16:31:35.659 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-05-01.16:31:35.663 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-05-01.16:31:35.719 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 Redis repository interfaces.
+26-05-01.16:31:36.898 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-05-01.16:31:37.006 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-01.16:31:37.015 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-01.16:31:37.016 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-05-01.16:31:37.225 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-01.16:31:37.225 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2681 ms
+26-05-01.16:31:37.429 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:31:37.433 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-01.16:31:37.455 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+26-05-01.16:31:37.473 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:32:24.183 [main            ] INFO  Application            - Starting Application using Java 17.0.17 on Sinai95 with PID 23696 (E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes started by 张萌 in E:\javastudy\group-buy-market-all)
+26-05-01.16:32:24.184 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-01.16:32:24.806 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-05-01.16:32:24.807 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-05-01.16:32:24.843 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+26-05-01.16:32:25.408 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-05-01.16:32:25.479 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-01.16:32:25.485 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-01.16:32:25.485 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-05-01.16:32:25.631 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-01.16:32:25.631 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1420 ms
+26-05-01.16:32:25.783 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:32:25.785 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-01.16:32:25.795 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+26-05-01.16:32:25.805 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:33:58.652 [main            ] INFO  Application            - Starting Application using Java 17.0.17 on Sinai95 with PID 23864 (E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes started by 张萌 in E:\javastudy\group-buy-market-all)
+26-05-01.16:33:58.654 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-01.16:33:59.337 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-05-01.16:33:59.338 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-05-01.16:33:59.379 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+26-05-01.16:33:59.986 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-05-01.16:34:00.054 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-01.16:34:00.059 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-01.16:34:00.059 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-05-01.16:34:00.190 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-01.16:34:00.191 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1505 ms
+26-05-01.16:34:00.329 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:34:00.331 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-01.16:34:00.342 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+26-05-01.16:34:00.350 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:40:20.678 [main            ] INFO  Application            - Starting Application using Java 17.0.17 on Sinai95 with PID 3528 (E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes started by 张萌 in E:\javastudy\group-buy-market-all)
+26-05-01.16:40:20.680 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-01.16:40:21.656 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-05-01.16:40:21.659 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-05-01.16:40:21.708 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+26-05-01.16:40:22.729 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-05-01.16:40:22.826 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-01.16:40:22.834 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-01.16:40:22.834 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-05-01.16:40:23.030 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-01.16:40:23.030 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2306 ms
+26-05-01.16:40:23.231 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:40:23.235 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-01.16:40:23.252 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+26-05-01.16:40:23.272 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+

@@ -1,0 +1,1544 @@
+26-04-23.11:08:15.251 [main            ] INFO  Application            - Starting Application using Java 17.0.17 on Sinai95 with PID 54700 (E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes started by 张萌 in E:\javastudy\group-buy-market-all)
+26-04-23.11:08:15.254 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-04-23.11:08:16.156 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-04-23.11:08:16.159 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-04-23.11:08:16.209 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+26-04-23.11:08:16.742 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cn.bugstack.wrench.dynamic.config.center.config.DynamicConfigCenterRegisterAutoConfig' of type [cn.bugstack.wrench.dynamic.config.center.config.DynamicConfigCenterRegisterAutoConfig$$EnhancerBySpringCGLIB$$81ae0d19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:16.755 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'xfg.wrench.config-cn.bugstack.wrench.dynamic.config.center.config.DynamicConfigCenterAutoProperties' of type [cn.bugstack.wrench.dynamic.config.center.config.DynamicConfigCenterAutoProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:16.755 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisClientConfig' of type [cn.bugstack.config.RedisClientConfig$$EnhancerBySpringCGLIB$$92679484] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:16.759 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redis.sdk.config-cn.bugstack.config.RedisClientConfigProperties' of type [cn.bugstack.config.RedisClientConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:16.937 [main            ] INFO  Version                - Redisson 3.26.0
+26-04-23.11:08:17.422 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+26-04-23.11:08:17.447 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+26-04-23.11:08:17.482 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redissonClient' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:17.505 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicConfigCenterService' of type [cn.bugstack.wrench.dynamic.config.center.domain.service.DynamicConfigCenterService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-04-23.11:08:17.733 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-04-23.11:08:17.811 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-04-23.11:08:17.817 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-04-23.11:08:17.817 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-04-23.11:08:17.965 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-04-23.11:08:17.965 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2663 ms
+26-04-23.11:08:18.976 [main            ] INFO  Version                - Redisson 3.26.0
+26-04-23.11:08:19.018 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+26-04-23.11:08:19.029 [redisson-netty-5-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:16379
+26-04-23.11:08:19.030 [main            ] INFO  DynamicConfigCenterRegisterAutoConfig - xfg-wrench，注册器（redis）链接初始化完成。127.0.0.1 64 true
+26-04-23.11:08:19.379 [main            ] INFO  EndpointLinksResolver  - Exposing 14 endpoint(s) beneath base path '/actuator'
+26-04-23.11:08:19.439 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+26-04-23.11:08:19.449 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+26-04-23.11:08:19.451 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+26-04-23.11:08:19.487 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6f740044:0/SimpleConnection@4f5d7091 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 23216]
+26-04-23.11:08:19.579 [main            ] INFO  Application            - Started Application in 4.722 seconds (JVM running for 5.503)
+26-04-23.11:08:20.125 [RMI TCP Connection(1)-192.168.65.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-04-23.11:08:20.125 [RMI TCP Connection(1)-192.168.65.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-04-23.11:08:20.127 [RMI TCP Connection(1)-192.168.65.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+26-04-23.11:08:20.150 [RMI TCP Connection(3)-192.168.65.1] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+26-04-23.11:08:20.340 [RMI TCP Connection(3)-192.168.65.1] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+26-04-23.11:09:00.028 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:09:00.028 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:09:00.062 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:10:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:10:00.018 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:10:00.024 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:11:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:11:00.014 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:11:00.019 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:12:00.005 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:12:00.005 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:12:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:13:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:13:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:13:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:14:00.004 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:14:00.005 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:14:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:15:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:15:00.014 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:15:00.021 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:16:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:16:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:16:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:17:00.015 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:17:00.015 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:17:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:18:00.010 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:18:00.010 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:18:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:19:00.010 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:19:00.010 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:19:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:20:00.011 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:20:00.011 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:20:00.015 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:21:00.006 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:21:00.006 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:21:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:22:00.004 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:22:00.004 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:22:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:23:00.003 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:23:00.003 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:23:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:24:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:24:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:24:00.022 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:25:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:25:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:25:00.022 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:26:00.005 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:26:00.005 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:26:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:27:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:27:00.009 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:27:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:28:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:28:00.017 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:28:00.021 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:29:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:29:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:29:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:30:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:30:00.008 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:30:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:31:00.028 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:31:00.028 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:31:00.032 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:32:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:32:00.018 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:32:00.022 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:33:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:33:00.013 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:33:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:34:00.003 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:34:00.003 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:34:00.010 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:35:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:35:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:35:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:36:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:36:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:36:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:37:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:37:00.009 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:37:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:38:00.015 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:38:00.015 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:38:00.024 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:39:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:39:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:39:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:40:00.005 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:40:00.005 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:40:00.010 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:40:44.048 [http-nio-8091-exec-9] INFO  RateLimiterAOP         -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 aop attr 只是一只兔
+26-04-23.11:40:44.085 [http-nio-8091-exec-9] INFO  MarketIndexController  -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:40:44.450 [http-nio-8091-exec-9] INFO  RootNode               -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:44.450 [http-nio-8091-exec-9] INFO  SwitchNode             -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:44.562 [http-nio-8091-exec-9] INFO  MarketNode             -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:40:44.563 [http-nio-8091-exec-9] INFO  MarketNode             -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:44.563 [http-nio-8091-exec-9] INFO  ZJCalculateService     -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 优惠策略折扣计算:0
+26-04-23.11:40:44.572 [http-nio-8091-exec-9] INFO  EndNode                -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:44.718 [http-nio-8091-exec-9] INFO  MarketIndexController  -9a7bc102-b007-45d7-9906-4d3b0eefd4a0 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":9,"allTeamUserCount":20}},"info":"成功"}
+26-04-23.11:40:49.756 [http-nio-8091-exec-6] INFO  MarketTradeController  -adf08d74-1516-485c-81c2-0934f66f80b3 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776915649732x0ira33yp","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:49.758 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -adf08d74-1516-485c-81c2-0934f66f80b3 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:1776915649732x0ira33yp
+26-04-23.11:40:49.763 [http-nio-8091-exec-6] INFO  RootNode               -adf08d74-1516-485c-81c2-0934f66f80b3 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:49.763 [http-nio-8091-exec-6] INFO  SwitchNode             -adf08d74-1516-485c-81c2-0934f66f80b3 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:49.780 [http-nio-8091-exec-6] INFO  MarketNode             -adf08d74-1516-485c-81c2-0934f66f80b3 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:40:49.780 [http-nio-8091-exec-6] INFO  MarketNode             -adf08d74-1516-485c-81c2-0934f66f80b3 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:49.780 [http-nio-8091-exec-6] INFO  ZJCalculateService     -adf08d74-1516-485c-81c2-0934f66f80b3 优惠策略折扣计算:0
+26-04-23.11:40:49.782 [http-nio-8091-exec-6] INFO  EndNode                -adf08d74-1516-485c-81c2-0934f66f80b3 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:49.789 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -adf08d74-1516-485c-81c2-0934f66f80b3 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:40:49.792 [http-nio-8091-exec-6] INFO  ActivityUsabilityRuleFilter -adf08d74-1516-485c-81c2-0934f66f80b3 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:40:49.799 [http-nio-8091-exec-6] INFO  UserTakeLimitRuleFilter -adf08d74-1516-485c-81c2-0934f66f80b3 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:40:49.802 [http-nio-8091-exec-6] INFO  TeamStockOccupyRuleFilter -adf08d74-1516-485c-81c2-0934f66f80b3 交易规则过滤-组队库存校验只是一只兔 activityId:100123
+26-04-23.11:40:49.996 [http-nio-8091-exec-6] ERROR MarketTradeController  -adf08d74-1516-485c-81c2-0934f66f80b3 营销交易锁单服务失败:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776915649732x0ira33yp","source":"s01","userId":"只是一只兔"}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+### The error may exist in file [E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes\mybatis\mapper\group_buy_order_list_mapper.xml]
+### The error may involve cn.bugstack.infrastructure.dao.IGroupBuyOrderListDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into group_buy_order_list(         user_id, team_id, order_id, activity_id, start_time,         end_time, goods_id, source, channel, original_price, pay_price,         deduction_price, status, out_trade_no, biz_id, create_time, update_time         )         values(         ?, ?, ?, ?, ?,         ?, ?, ?, ?, ?, ?,         ?, ?, ?, ?, now(), now()         )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+; Data truncation: Data too long for column 'out_trade_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy110.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.insert(Unknown Source)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository.lockMarketPayOrder(TradeRepository.java:160)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$FastClassBySpringCGLIB$$385a4bbd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$EnhancerBySpringCGLIB$$41b0acd7.lockMarketPayOrder(<generated>)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:66)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 82 common frames omitted
+26-04-23.11:40:53.547 [http-nio-8091-exec-7] INFO  MarketTradeController  -d185e397-fe32-4788-841a-3e2f773f0c78 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776915653540t5bqqw9ln","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:53.547 [http-nio-8091-exec-7] INFO  TradeLockOrderService  -d185e397-fe32-4788-841a-3e2f773f0c78 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:1776915653540t5bqqw9ln
+26-04-23.11:40:53.550 [http-nio-8091-exec-7] INFO  RootNode               -d185e397-fe32-4788-841a-3e2f773f0c78 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:53.550 [http-nio-8091-exec-7] INFO  SwitchNode             -d185e397-fe32-4788-841a-3e2f773f0c78 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:53.554 [http-nio-8091-exec-7] INFO  MarketNode             -d185e397-fe32-4788-841a-3e2f773f0c78 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:40:53.554 [http-nio-8091-exec-7] INFO  MarketNode             -d185e397-fe32-4788-841a-3e2f773f0c78 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:53.555 [http-nio-8091-exec-7] INFO  ZJCalculateService     -d185e397-fe32-4788-841a-3e2f773f0c78 优惠策略折扣计算:0
+26-04-23.11:40:53.555 [http-nio-8091-exec-7] INFO  EndNode                -d185e397-fe32-4788-841a-3e2f773f0c78 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:40:53.555 [http-nio-8091-exec-7] INFO  TradeLockOrderService  -d185e397-fe32-4788-841a-3e2f773f0c78 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:40:53.555 [http-nio-8091-exec-7] INFO  ActivityUsabilityRuleFilter -d185e397-fe32-4788-841a-3e2f773f0c78 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:40:53.557 [http-nio-8091-exec-7] INFO  UserTakeLimitRuleFilter -d185e397-fe32-4788-841a-3e2f773f0c78 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:40:53.559 [http-nio-8091-exec-7] INFO  TeamStockOccupyRuleFilter -d185e397-fe32-4788-841a-3e2f773f0c78 交易规则过滤-组队库存校验只是一只兔 activityId:100123
+26-04-23.11:40:53.573 [http-nio-8091-exec-7] ERROR MarketTradeController  -d185e397-fe32-4788-841a-3e2f773f0c78 营销交易锁单服务失败:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776915653540t5bqqw9ln","source":"s01","userId":"只是一只兔"}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+### The error may exist in file [E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes\mybatis\mapper\group_buy_order_list_mapper.xml]
+### The error may involve cn.bugstack.infrastructure.dao.IGroupBuyOrderListDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into group_buy_order_list(         user_id, team_id, order_id, activity_id, start_time,         end_time, goods_id, source, channel, original_price, pay_price,         deduction_price, status, out_trade_no, biz_id, create_time, update_time         )         values(         ?, ?, ?, ?, ?,         ?, ?, ?, ?, ?, ?,         ?, ?, ?, ?, now(), now()         )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+; Data truncation: Data too long for column 'out_trade_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy110.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.insert(Unknown Source)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository.lockMarketPayOrder(TradeRepository.java:160)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$FastClassBySpringCGLIB$$385a4bbd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$EnhancerBySpringCGLIB$$41b0acd7.lockMarketPayOrder(<generated>)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:66)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 82 common frames omitted
+26-04-23.11:41:00.009 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:41:00.009 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:41:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:42:00.004 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:42:00.004 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:42:00.007 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:43:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:43:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:43:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:44:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:44:00.017 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:44:00.021 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:45:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:45:00.014 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:45:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:46:00.002 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:46:00.002 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:46:00.006 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:47:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:47:00.008 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:47:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:48:00.006 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:48:00.006 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:48:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:49:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:49:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:49:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:49:12.884 [http-nio-8091-exec-8] INFO  RateLimiterAOP         -24951122-399b-4e0c-a4a3-e78cc66713fd aop attr 只是一只兔
+26-04-23.11:49:12.960 [http-nio-8091-exec-8] INFO  MarketIndexController  -24951122-399b-4e0c-a4a3-e78cc66713fd 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:49:12.961 [http-nio-8091-exec-8] INFO  RootNode               -24951122-399b-4e0c-a4a3-e78cc66713fd 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:49:12.961 [http-nio-8091-exec-8] INFO  SwitchNode             -24951122-399b-4e0c-a4a3-e78cc66713fd 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:49:12.983 [http-nio-8091-exec-8] INFO  MarketNode             -24951122-399b-4e0c-a4a3-e78cc66713fd 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:49:12.983 [http-nio-8091-exec-8] INFO  MarketNode             -24951122-399b-4e0c-a4a3-e78cc66713fd 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:49:12.983 [http-nio-8091-exec-8] INFO  ZJCalculateService     -24951122-399b-4e0c-a4a3-e78cc66713fd 优惠策略折扣计算:0
+26-04-23.11:49:12.985 [http-nio-8091-exec-8] INFO  EndNode                -24951122-399b-4e0c-a4a3-e78cc66713fd 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:49:13.023 [http-nio-8091-exec-8] INFO  MarketIndexController  -24951122-399b-4e0c-a4a3-e78cc66713fd 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":9,"allTeamUserCount":20}},"info":"成功"}
+26-04-23.11:50:00.003 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:50:00.003 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:50:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:51:00.015 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:51:00.015 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:51:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:51:25.876 [http-nio-8091-exec-5] INFO  MarketTradeController  -52bb0fc2-0a06-40ed-97ed-173871f5bc64 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776916285864vz800w6za","source":"s01","userId":"只是一只兔"}
+26-04-23.11:51:25.877 [http-nio-8091-exec-5] INFO  TradeLockOrderService  -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:1776916285864vz800w6za
+26-04-23.11:51:25.882 [http-nio-8091-exec-5] INFO  RootNode               -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:51:25.882 [http-nio-8091-exec-5] INFO  SwitchNode             -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:51:25.887 [http-nio-8091-exec-5] INFO  MarketNode             -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:51:25.887 [http-nio-8091-exec-5] INFO  MarketNode             -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:51:25.887 [http-nio-8091-exec-5] INFO  ZJCalculateService     -52bb0fc2-0a06-40ed-97ed-173871f5bc64 优惠策略折扣计算:0
+26-04-23.11:51:25.888 [http-nio-8091-exec-5] INFO  EndNode                -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:51:25.888 [http-nio-8091-exec-5] INFO  TradeLockOrderService  -52bb0fc2-0a06-40ed-97ed-173871f5bc64 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:51:25.888 [http-nio-8091-exec-5] INFO  ActivityUsabilityRuleFilter -52bb0fc2-0a06-40ed-97ed-173871f5bc64 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:51:25.893 [http-nio-8091-exec-5] INFO  UserTakeLimitRuleFilter -52bb0fc2-0a06-40ed-97ed-173871f5bc64 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:51:25.895 [http-nio-8091-exec-5] INFO  TeamStockOccupyRuleFilter -52bb0fc2-0a06-40ed-97ed-173871f5bc64 交易规则过滤-组队库存校验只是一只兔 activityId:100123
+26-04-23.11:51:25.962 [http-nio-8091-exec-5] ERROR MarketTradeController  -52bb0fc2-0a06-40ed-97ed-173871f5bc64 营销交易锁单服务失败:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"1776916285864vz800w6za","source":"s01","userId":"只是一只兔"}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+### The error may exist in file [E:\javastudy\group-buy-market-all\group-buy-market-mine\group-buy-market-app\target\classes\mybatis\mapper\group_buy_order_list_mapper.xml]
+### The error may involve cn.bugstack.infrastructure.dao.IGroupBuyOrderListDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into group_buy_order_list(         user_id, team_id, order_id, activity_id, start_time,         end_time, goods_id, source, channel, original_price, pay_price,         deduction_price, status, out_trade_no, biz_id, create_time, update_time         )         values(         ?, ?, ?, ?, ?,         ?, ?, ?, ?, ?, ?,         ?, ?, ?, ?, now(), now()         )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+; Data truncation: Data too long for column 'out_trade_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy110.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.insert(Unknown Source)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository.lockMarketPayOrder(TradeRepository.java:160)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$FastClassBySpringCGLIB$$385a4bbd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.bugstack.infrastructure.adapter.repository.TradeRepository$$EnhancerBySpringCGLIB$$41b0acd7.lockMarketPayOrder(<generated>)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:66)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'out_trade_no' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 82 common frames omitted
+26-04-23.11:52:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:52:00.013 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:52:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:53:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:53:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:53:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:53:57.224 [http-nio-8091-exec-10] INFO  RateLimiterAOP         -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d aop attr 只是一只兔
+26-04-23.11:53:57.224 [http-nio-8091-exec-10] INFO  MarketIndexController  -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:53:57.224 [http-nio-8091-exec-10] INFO  RootNode               -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:53:57.227 [http-nio-8091-exec-10] INFO  SwitchNode             -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:53:57.237 [http-nio-8091-exec-10] INFO  MarketNode             -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:53:57.237 [http-nio-8091-exec-10] INFO  MarketNode             -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:53:57.237 [http-nio-8091-exec-10] INFO  ZJCalculateService     -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 优惠策略折扣计算:0
+26-04-23.11:53:57.239 [http-nio-8091-exec-10] INFO  EndNode                -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:53:57.256 [http-nio-8091-exec-10] INFO  MarketIndexController  -98478fde-ecfd-4dc4-9c5a-94a6dcaa776d 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":9,"allTeamUserCount":20}},"info":"成功"}
+26-04-23.11:54:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:54:00.012 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:54:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:55:00.011 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:55:00.011 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:55:00.015 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:55:44.895 [http-nio-8091-exec-1] INFO  RateLimiterAOP         -cb5f9d95-6b13-47d8-a23c-b73cff63af7b aop attr 只是一只兔
+26-04-23.11:55:44.895 [http-nio-8091-exec-1] INFO  MarketIndexController  -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:55:44.897 [http-nio-8091-exec-1] INFO  RootNode               -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:44.897 [http-nio-8091-exec-1] INFO  SwitchNode             -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:44.907 [http-nio-8091-exec-1] INFO  MarketNode             -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:55:44.908 [http-nio-8091-exec-1] INFO  MarketNode             -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:44.908 [http-nio-8091-exec-1] INFO  ZJCalculateService     -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 优惠策略折扣计算:0
+26-04-23.11:55:44.910 [http-nio-8091-exec-1] INFO  EndNode                -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:44.938 [http-nio-8091-exec-1] INFO  MarketIndexController  -cb5f9d95-6b13-47d8-a23c-b73cff63af7b 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":9,"allTeamUserCount":20}},"info":"成功"}
+26-04-23.11:55:46.068 [http-nio-8091-exec-4] INFO  MarketTradeController  -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916546055cr","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:46.068 [http-nio-8091-exec-4] INFO  TradeLockOrderService  -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916546055cr
+26-04-23.11:55:46.072 [http-nio-8091-exec-4] INFO  RootNode               -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:46.072 [http-nio-8091-exec-4] INFO  SwitchNode             -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:46.079 [http-nio-8091-exec-4] INFO  MarketNode             -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:55:46.079 [http-nio-8091-exec-4] INFO  MarketNode             -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:46.079 [http-nio-8091-exec-4] INFO  ZJCalculateService     -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 优惠策略折扣计算:0
+26-04-23.11:55:46.081 [http-nio-8091-exec-4] INFO  EndNode                -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:55:46.081 [http-nio-8091-exec-4] INFO  TradeLockOrderService  -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:55:46.082 [http-nio-8091-exec-4] INFO  ActivityUsabilityRuleFilter -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:55:46.088 [http-nio-8091-exec-4] INFO  UserTakeLimitRuleFilter -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:55:46.090 [http-nio-8091-exec-4] INFO  TeamStockOccupyRuleFilter -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 交易规则过滤-组队库存校验只是一只兔 activityId:100123
+26-04-23.11:55:46.216 [http-nio-8091-exec-4] INFO  MarketTradeController  -68d25fd5-1b18-4e6d-8f3c-d97dddb23e8b 交易锁单记录(新):只是一只兔 marketPayOrderEntity:{"deductionPrice":20.00,"orderId":"731577416112","originalPrice":100.00,"payPrice":80.00,"teamId":"47618374","tradeOrderStatusEnumVO":"CREATE"}
+26-04-23.11:55:52.206 [http-nio-8091-exec-3] INFO  MarketTradeController  -5af43b3e-f5af-4b46-93d4-db0adef72de3 营销交易组队结算开始:只是一只兔 outTradeNo:731577416112
+26-04-23.11:55:52.211 [http-nio-8091-exec-3] INFO  TradeSettlementOrderService -5af43b3e-f5af-4b46-93d4-db0adef72de3 拼团交易-支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:55:52.213 [http-nio-8091-exec-3] INFO  SCRuleFilter           -5af43b3e-f5af-4b46-93d4-db0adef72de3 结算规则过滤-渠道黑名单校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:55:52.214 [http-nio-8091-exec-3] INFO  OutTradeNoRuleFilter   -5af43b3e-f5af-4b46-93d4-db0adef72de3 结算规则过滤-外部单号校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:55:52.219 [http-nio-8091-exec-3] ERROR OutTradeNoRuleFilter   -5af43b3e-f5af-4b46-93d4-db0adef72de3 不存在的外部交易单号或用户已退单，不需要做支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:55:52.225 [http-nio-8091-exec-3] ERROR MarketTradeController  -5af43b3e-f5af-4b46-93d4-db0adef72de3 营销交易组队结算异常:只是一只兔 LockMarketPayOrderRequestDTO:{"channel":"c01","outTradeNo":"731577416112","outTradeTime":1776916552181,"source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:38)
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:22)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.settlement.TradeSettlementOrderService.settlementMarketPayOrder(TradeSettlementOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.settlementMarketPayOrder(MarketTradeController.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:56:00.016 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:56:00.016 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:56:00.021 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:57:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:57:00.013 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:57:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:57:01.911 [http-nio-8091-exec-2] INFO  RateLimiterAOP         -1bff14de-0e95-43f6-8ee4-11c3656e4b33 aop attr 只是一只兔
+26-04-23.11:57:01.913 [http-nio-8091-exec-2] INFO  MarketIndexController  -1bff14de-0e95-43f6-8ee4-11c3656e4b33 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:57:01.913 [http-nio-8091-exec-2] INFO  RootNode               -1bff14de-0e95-43f6-8ee4-11c3656e4b33 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:01.913 [http-nio-8091-exec-2] INFO  SwitchNode             -1bff14de-0e95-43f6-8ee4-11c3656e4b33 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:01.923 [http-nio-8091-exec-2] INFO  MarketNode             -1bff14de-0e95-43f6-8ee4-11c3656e4b33 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:57:01.923 [http-nio-8091-exec-2] INFO  MarketNode             -1bff14de-0e95-43f6-8ee4-11c3656e4b33 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:01.923 [http-nio-8091-exec-2] INFO  ZJCalculateService     -1bff14de-0e95-43f6-8ee4-11c3656e4b33 优惠策略折扣计算:0
+26-04-23.11:57:01.925 [http-nio-8091-exec-2] INFO  EndNode                -1bff14de-0e95-43f6-8ee4-11c3656e4b33 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:01.982 [http-nio-8091-exec-2] INFO  MarketIndexController  -1bff14de-0e95-43f6-8ee4-11c3656e4b33 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:13:44"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.11:57:03.165 [http-nio-8091-exec-9] INFO  MarketTradeController  -f1f98856-3247-481f-95cf-ffa28f3bde1f 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69166231527e","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:03.165 [http-nio-8091-exec-9] INFO  TradeLockOrderService  -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:69166231527e
+26-04-23.11:57:03.170 [http-nio-8091-exec-9] INFO  RootNode               -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:03.170 [http-nio-8091-exec-9] INFO  SwitchNode             -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:03.175 [http-nio-8091-exec-9] INFO  MarketNode             -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:57:03.175 [http-nio-8091-exec-9] INFO  MarketNode             -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:03.175 [http-nio-8091-exec-9] INFO  ZJCalculateService     -f1f98856-3247-481f-95cf-ffa28f3bde1f 优惠策略折扣计算:0
+26-04-23.11:57:03.177 [http-nio-8091-exec-9] INFO  EndNode                -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:03.177 [http-nio-8091-exec-9] INFO  TradeLockOrderService  -f1f98856-3247-481f-95cf-ffa28f3bde1f 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:57:03.177 [http-nio-8091-exec-9] INFO  ActivityUsabilityRuleFilter -f1f98856-3247-481f-95cf-ffa28f3bde1f 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:57:03.178 [http-nio-8091-exec-9] INFO  UserTakeLimitRuleFilter -f1f98856-3247-481f-95cf-ffa28f3bde1f 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:57:03.181 [http-nio-8091-exec-9] INFO  UserTakeLimitRuleFilter -f1f98856-3247-481f-95cf-ffa28f3bde1f 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.11:57:03.182 [http-nio-8091-exec-9] ERROR MarketTradeController  -f1f98856-3247-481f-95cf-ffa28f3bde1f 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69166231527e","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:57:05.606 [http-nio-8091-exec-6] INFO  MarketTradeController  -aaeef073-88ca-44d0-8c69-16dd8e9aa625 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69166255995c","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:05.606 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:69166255995c
+26-04-23.11:57:05.611 [http-nio-8091-exec-6] INFO  RootNode               -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:05.611 [http-nio-8091-exec-6] INFO  SwitchNode             -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:05.616 [http-nio-8091-exec-6] INFO  MarketNode             -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:57:05.616 [http-nio-8091-exec-6] INFO  MarketNode             -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:05.616 [http-nio-8091-exec-6] INFO  ZJCalculateService     -aaeef073-88ca-44d0-8c69-16dd8e9aa625 优惠策略折扣计算:0
+26-04-23.11:57:05.617 [http-nio-8091-exec-6] INFO  EndNode                -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:05.617 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -aaeef073-88ca-44d0-8c69-16dd8e9aa625 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:57:05.617 [http-nio-8091-exec-6] INFO  ActivityUsabilityRuleFilter -aaeef073-88ca-44d0-8c69-16dd8e9aa625 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:57:05.620 [http-nio-8091-exec-6] INFO  UserTakeLimitRuleFilter -aaeef073-88ca-44d0-8c69-16dd8e9aa625 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:57:05.621 [http-nio-8091-exec-6] INFO  UserTakeLimitRuleFilter -aaeef073-88ca-44d0-8c69-16dd8e9aa625 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.11:57:05.622 [http-nio-8091-exec-6] ERROR MarketTradeController  -aaeef073-88ca-44d0-8c69-16dd8e9aa625 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69166255995c","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:57:09.097 [http-nio-8091-exec-7] INFO  RateLimiterAOP         -1a713fc9-bd3f-45ed-b911-6f38852199dd aop attr 只是一只兔
+26-04-23.11:57:09.097 [http-nio-8091-exec-7] INFO  MarketIndexController  -1a713fc9-bd3f-45ed-b911-6f38852199dd 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:57:09.097 [http-nio-8091-exec-7] INFO  RootNode               -1a713fc9-bd3f-45ed-b911-6f38852199dd 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:09.097 [http-nio-8091-exec-7] INFO  SwitchNode             -1a713fc9-bd3f-45ed-b911-6f38852199dd 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:09.106 [http-nio-8091-exec-7] INFO  MarketNode             -1a713fc9-bd3f-45ed-b911-6f38852199dd 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:57:09.106 [http-nio-8091-exec-7] INFO  MarketNode             -1a713fc9-bd3f-45ed-b911-6f38852199dd 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:09.107 [http-nio-8091-exec-7] INFO  ZJCalculateService     -1a713fc9-bd3f-45ed-b911-6f38852199dd 优惠策略折扣计算:0
+26-04-23.11:57:09.111 [http-nio-8091-exec-7] INFO  EndNode                -1a713fc9-bd3f-45ed-b911-6f38852199dd 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:09.134 [http-nio-8091-exec-7] INFO  MarketIndexController  -1a713fc9-bd3f-45ed-b911-6f38852199dd 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:13:36"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.11:57:12.213 [http-nio-8091-exec-8] INFO  MarketTradeController  -7fe9bbf4-164b-4f38-b610-948754b09977 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916632201hk","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:12.213 [http-nio-8091-exec-8] INFO  TradeLockOrderService  -7fe9bbf4-164b-4f38-b610-948754b09977 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916632201hk
+26-04-23.11:57:12.218 [http-nio-8091-exec-8] INFO  RootNode               -7fe9bbf4-164b-4f38-b610-948754b09977 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:12.218 [http-nio-8091-exec-8] INFO  SwitchNode             -7fe9bbf4-164b-4f38-b610-948754b09977 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:12.221 [http-nio-8091-exec-8] INFO  MarketNode             -7fe9bbf4-164b-4f38-b610-948754b09977 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:57:12.221 [http-nio-8091-exec-8] INFO  MarketNode             -7fe9bbf4-164b-4f38-b610-948754b09977 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:12.221 [http-nio-8091-exec-8] INFO  ZJCalculateService     -7fe9bbf4-164b-4f38-b610-948754b09977 优惠策略折扣计算:0
+26-04-23.11:57:12.223 [http-nio-8091-exec-8] INFO  EndNode                -7fe9bbf4-164b-4f38-b610-948754b09977 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:57:12.223 [http-nio-8091-exec-8] INFO  TradeLockOrderService  -7fe9bbf4-164b-4f38-b610-948754b09977 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:57:12.223 [http-nio-8091-exec-8] INFO  ActivityUsabilityRuleFilter -7fe9bbf4-164b-4f38-b610-948754b09977 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:57:12.225 [http-nio-8091-exec-8] INFO  UserTakeLimitRuleFilter -7fe9bbf4-164b-4f38-b610-948754b09977 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:57:12.227 [http-nio-8091-exec-8] INFO  UserTakeLimitRuleFilter -7fe9bbf4-164b-4f38-b610-948754b09977 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.11:57:12.228 [http-nio-8091-exec-8] ERROR MarketTradeController  -7fe9bbf4-164b-4f38-b610-948754b09977 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916632201hk","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:58:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:58:00.008 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:58:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:58:07.704 [http-nio-8091-exec-5] INFO  MarketTradeController  -9828d088-add0-4be4-95fe-6ba3f79f2ac2 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916546055cr","source":"s01","teamId":"47618374","userId":"只是一只兔"}
+26-04-23.11:58:07.704 [http-nio-8091-exec-5] INFO  TradeLockOrderService  -9828d088-add0-4be4-95fe-6ba3f79f2ac2 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916546055cr
+26-04-23.11:58:07.709 [http-nio-8091-exec-5] INFO  MarketTradeController  -9828d088-add0-4be4-95fe-6ba3f79f2ac2 交易锁单记录(存在):只是一只兔 marketPayOrderEntity:{"deductionPrice":20.00,"orderId":"731577416112","originalPrice":100.00,"payPrice":80.00,"teamId":"47618374","tradeOrderStatusEnumVO":"CREATE"}
+26-04-23.11:58:08.938 [http-nio-8091-exec-10] INFO  MarketTradeController  -2410f330-f9fb-4a68-96d1-6a45eca02296 营销交易组队结算开始:只是一只兔 outTradeNo:731577416112
+26-04-23.11:58:08.938 [http-nio-8091-exec-10] INFO  TradeSettlementOrderService -2410f330-f9fb-4a68-96d1-6a45eca02296 拼团交易-支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:58:08.938 [http-nio-8091-exec-10] INFO  SCRuleFilter           -2410f330-f9fb-4a68-96d1-6a45eca02296 结算规则过滤-渠道黑名单校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:58:08.938 [http-nio-8091-exec-10] INFO  OutTradeNoRuleFilter   -2410f330-f9fb-4a68-96d1-6a45eca02296 结算规则过滤-外部单号校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:58:08.942 [http-nio-8091-exec-10] ERROR OutTradeNoRuleFilter   -2410f330-f9fb-4a68-96d1-6a45eca02296 不存在的外部交易单号或用户已退单，不需要做支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:58:08.942 [http-nio-8091-exec-10] ERROR MarketTradeController  -2410f330-f9fb-4a68-96d1-6a45eca02296 营销交易组队结算异常:只是一只兔 LockMarketPayOrderRequestDTO:{"channel":"c01","outTradeNo":"731577416112","outTradeTime":1776916688931,"source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:38)
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:22)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.settlement.TradeSettlementOrderService.settlementMarketPayOrder(TradeSettlementOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.settlementMarketPayOrder(MarketTradeController.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:59:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.11:59:00.013 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.11:59:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.11:59:15.799 [http-nio-8091-exec-1] INFO  RateLimiterAOP         -7d064341-a877-4e28-8235-287ab4f8c4f8 aop attr 只是一只兔
+26-04-23.11:59:15.799 [http-nio-8091-exec-1] INFO  MarketIndexController  -7d064341-a877-4e28-8235-287ab4f8c4f8 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:59:15.799 [http-nio-8091-exec-1] INFO  RootNode               -7d064341-a877-4e28-8235-287ab4f8c4f8 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:15.799 [http-nio-8091-exec-1] INFO  SwitchNode             -7d064341-a877-4e28-8235-287ab4f8c4f8 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:15.813 [http-nio-8091-exec-1] INFO  MarketNode             -7d064341-a877-4e28-8235-287ab4f8c4f8 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:15.813 [http-nio-8091-exec-1] INFO  MarketNode             -7d064341-a877-4e28-8235-287ab4f8c4f8 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:15.813 [http-nio-8091-exec-1] INFO  ZJCalculateService     -7d064341-a877-4e28-8235-287ab4f8c4f8 优惠策略折扣计算:0
+26-04-23.11:59:15.815 [http-nio-8091-exec-1] INFO  EndNode                -7d064341-a877-4e28-8235-287ab4f8c4f8 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:15.838 [http-nio-8091-exec-1] INFO  MarketIndexController  -7d064341-a877-4e28-8235-287ab4f8c4f8 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:11:30"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.11:59:19.227 [http-nio-8091-exec-4] INFO  RateLimiterAOP         -621c9476-651a-471c-8e6f-8bda9b252efc aop attr 只是一只兔
+26-04-23.11:59:19.227 [http-nio-8091-exec-4] INFO  MarketIndexController  -621c9476-651a-471c-8e6f-8bda9b252efc 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:59:19.227 [http-nio-8091-exec-4] INFO  RootNode               -621c9476-651a-471c-8e6f-8bda9b252efc 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:19.227 [http-nio-8091-exec-4] INFO  SwitchNode             -621c9476-651a-471c-8e6f-8bda9b252efc 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:19.237 [http-nio-8091-exec-4] INFO  MarketNode             -621c9476-651a-471c-8e6f-8bda9b252efc 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:19.237 [http-nio-8091-exec-4] INFO  MarketNode             -621c9476-651a-471c-8e6f-8bda9b252efc 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:19.237 [http-nio-8091-exec-4] INFO  ZJCalculateService     -621c9476-651a-471c-8e6f-8bda9b252efc 优惠策略折扣计算:0
+26-04-23.11:59:19.238 [http-nio-8091-exec-4] INFO  EndNode                -621c9476-651a-471c-8e6f-8bda9b252efc 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:19.253 [http-nio-8091-exec-4] INFO  MarketIndexController  -621c9476-651a-471c-8e6f-8bda9b252efc 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:11:26"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.11:59:22.194 [http-nio-8091-exec-3] INFO  MarketTradeController  -c29ad1e6-5b02-4d15-a243-16e951659926 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916546055cr","source":"s01","teamId":"47618374","userId":"只是一只兔"}
+26-04-23.11:59:22.194 [http-nio-8091-exec-3] INFO  TradeLockOrderService  -c29ad1e6-5b02-4d15-a243-16e951659926 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916546055cr
+26-04-23.11:59:22.199 [http-nio-8091-exec-3] INFO  MarketTradeController  -c29ad1e6-5b02-4d15-a243-16e951659926 交易锁单记录(存在):只是一只兔 marketPayOrderEntity:{"deductionPrice":20.00,"orderId":"731577416112","originalPrice":100.00,"payPrice":80.00,"teamId":"47618374","tradeOrderStatusEnumVO":"CREATE"}
+26-04-23.11:59:23.272 [http-nio-8091-exec-2] INFO  MarketTradeController  -cf53cb64-df73-4283-9c71-eb473e3e2ce9 营销交易组队结算开始:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:23.272 [http-nio-8091-exec-2] INFO  TradeSettlementOrderService -cf53cb64-df73-4283-9c71-eb473e3e2ce9 拼团交易-支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:23.272 [http-nio-8091-exec-2] INFO  SCRuleFilter           -cf53cb64-df73-4283-9c71-eb473e3e2ce9 结算规则过滤-渠道黑名单校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:23.272 [http-nio-8091-exec-2] INFO  OutTradeNoRuleFilter   -cf53cb64-df73-4283-9c71-eb473e3e2ce9 结算规则过滤-外部单号校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:23.276 [http-nio-8091-exec-2] ERROR OutTradeNoRuleFilter   -cf53cb64-df73-4283-9c71-eb473e3e2ce9 不存在的外部交易单号或用户已退单，不需要做支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:23.277 [http-nio-8091-exec-2] ERROR MarketTradeController  -cf53cb64-df73-4283-9c71-eb473e3e2ce9 营销交易组队结算异常:只是一只兔 LockMarketPayOrderRequestDTO:{"channel":"c01","outTradeNo":"731577416112","outTradeTime":1776916763262,"source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:38)
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:22)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.settlement.TradeSettlementOrderService.settlementMarketPayOrder(TradeSettlementOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.settlementMarketPayOrder(MarketTradeController.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:59:32.668 [http-nio-8091-exec-9] INFO  RateLimiterAOP         -4117192b-13a0-49c6-9d6d-3d90122dd4ed aop attr 只是一只兔
+26-04-23.11:59:32.668 [http-nio-8091-exec-9] INFO  MarketIndexController  -4117192b-13a0-49c6-9d6d-3d90122dd4ed 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:59:32.668 [http-nio-8091-exec-9] INFO  RootNode               -4117192b-13a0-49c6-9d6d-3d90122dd4ed 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:32.668 [http-nio-8091-exec-9] INFO  SwitchNode             -4117192b-13a0-49c6-9d6d-3d90122dd4ed 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:32.678 [http-nio-8091-exec-9] INFO  MarketNode             -4117192b-13a0-49c6-9d6d-3d90122dd4ed 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:32.678 [http-nio-8091-exec-9] INFO  MarketNode             -4117192b-13a0-49c6-9d6d-3d90122dd4ed 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:32.679 [http-nio-8091-exec-9] INFO  ZJCalculateService     -4117192b-13a0-49c6-9d6d-3d90122dd4ed 优惠策略折扣计算:0
+26-04-23.11:59:32.680 [http-nio-8091-exec-9] INFO  EndNode                -4117192b-13a0-49c6-9d6d-3d90122dd4ed 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:32.700 [http-nio-8091-exec-9] INFO  MarketIndexController  -4117192b-13a0-49c6-9d6d-3d90122dd4ed 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:11:13"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.11:59:36.697 [http-nio-8091-exec-6] INFO  MarketTradeController  -82cd9285-bfd2-4c7c-b5c6-001a80334814 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916776688uv","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:36.697 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916776688uv
+26-04-23.11:59:36.701 [http-nio-8091-exec-6] INFO  RootNode               -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:36.701 [http-nio-8091-exec-6] INFO  SwitchNode             -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:36.704 [http-nio-8091-exec-6] INFO  MarketNode             -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:36.704 [http-nio-8091-exec-6] INFO  MarketNode             -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:36.704 [http-nio-8091-exec-6] INFO  ZJCalculateService     -82cd9285-bfd2-4c7c-b5c6-001a80334814 优惠策略折扣计算:0
+26-04-23.11:59:36.705 [http-nio-8091-exec-6] INFO  EndNode                -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:36.705 [http-nio-8091-exec-6] INFO  TradeLockOrderService  -82cd9285-bfd2-4c7c-b5c6-001a80334814 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:59:36.705 [http-nio-8091-exec-6] INFO  ActivityUsabilityRuleFilter -82cd9285-bfd2-4c7c-b5c6-001a80334814 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:59:36.708 [http-nio-8091-exec-6] INFO  UserTakeLimitRuleFilter -82cd9285-bfd2-4c7c-b5c6-001a80334814 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:59:36.708 [http-nio-8091-exec-6] INFO  UserTakeLimitRuleFilter -82cd9285-bfd2-4c7c-b5c6-001a80334814 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.11:59:36.710 [http-nio-8091-exec-6] ERROR MarketTradeController  -82cd9285-bfd2-4c7c-b5c6-001a80334814 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916776688uv","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:59:39.039 [http-nio-8091-exec-7] INFO  MarketTradeController  -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916779026s9","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:39.039 [http-nio-8091-exec-7] INFO  TradeLockOrderService  -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916779026s9
+26-04-23.11:59:39.043 [http-nio-8091-exec-7] INFO  RootNode               -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:39.043 [http-nio-8091-exec-7] INFO  SwitchNode             -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:39.045 [http-nio-8091-exec-7] INFO  MarketNode             -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:39.046 [http-nio-8091-exec-7] INFO  MarketNode             -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:39.046 [http-nio-8091-exec-7] INFO  ZJCalculateService     -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 优惠策略折扣计算:0
+26-04-23.11:59:39.047 [http-nio-8091-exec-7] INFO  EndNode                -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:39.047 [http-nio-8091-exec-7] INFO  TradeLockOrderService  -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.11:59:39.047 [http-nio-8091-exec-7] INFO  ActivityUsabilityRuleFilter -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.11:59:39.049 [http-nio-8091-exec-7] INFO  UserTakeLimitRuleFilter -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.11:59:39.050 [http-nio-8091-exec-7] INFO  UserTakeLimitRuleFilter -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.11:59:39.051 [http-nio-8091-exec-7] ERROR MarketTradeController  -22d6b0d5-f046-4c32-8ab5-2a7946dedf46 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916779026s9","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:59:42.343 [http-nio-8091-exec-8] INFO  MarketTradeController  -ac4c04d6-7c62-4eca-be56-99bd28a24315 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916546055cr","source":"s01","teamId":"47618374","userId":"只是一只兔"}
+26-04-23.11:59:42.343 [http-nio-8091-exec-8] INFO  TradeLockOrderService  -ac4c04d6-7c62-4eca-be56-99bd28a24315 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916546055cr
+26-04-23.11:59:42.347 [http-nio-8091-exec-8] INFO  MarketTradeController  -ac4c04d6-7c62-4eca-be56-99bd28a24315 交易锁单记录(存在):只是一只兔 marketPayOrderEntity:{"deductionPrice":20.00,"orderId":"731577416112","originalPrice":100.00,"payPrice":80.00,"teamId":"47618374","tradeOrderStatusEnumVO":"CREATE"}
+26-04-23.11:59:43.539 [http-nio-8091-exec-5] INFO  MarketTradeController  -3fa9af5b-5300-4623-8a53-858aa9f6f97c 营销交易组队结算开始:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:43.539 [http-nio-8091-exec-5] INFO  TradeSettlementOrderService -3fa9af5b-5300-4623-8a53-858aa9f6f97c 拼团交易-支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:43.539 [http-nio-8091-exec-5] INFO  SCRuleFilter           -3fa9af5b-5300-4623-8a53-858aa9f6f97c 结算规则过滤-渠道黑名单校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:43.539 [http-nio-8091-exec-5] INFO  OutTradeNoRuleFilter   -3fa9af5b-5300-4623-8a53-858aa9f6f97c 结算规则过滤-外部单号校验只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:43.544 [http-nio-8091-exec-5] ERROR OutTradeNoRuleFilter   -3fa9af5b-5300-4623-8a53-858aa9f6f97c 不存在的外部交易单号或用户已退单，不需要做支付订单结算:只是一只兔 outTradeNo:731577416112
+26-04-23.11:59:43.544 [http-nio-8091-exec-5] ERROR MarketTradeController  -3fa9af5b-5300-4623-8a53-858aa9f6f97c 营销交易组队结算异常:只是一只兔 LockMarketPayOrderRequestDTO:{"channel":"c01","outTradeNo":"731577416112","outTradeTime":1776916783534,"source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:38)
+	at cn.bugstack.domain.trade.service.settlement.filter.OutTradeNoRuleFilter.apply(OutTradeNoRuleFilter.java:22)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.settlement.TradeSettlementOrderService.settlementMarketPayOrder(TradeSettlementOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.settlementMarketPayOrder(MarketTradeController.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.11:59:53.140 [http-nio-8091-exec-10] INFO  RateLimiterAOP         -af74af2b-30a3-4267-a1a7-bc875ffc7221 aop attr 只是一只兔
+26-04-23.11:59:53.140 [http-nio-8091-exec-10] INFO  MarketIndexController  -af74af2b-30a3-4267-a1a7-bc875ffc7221 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.11:59:53.140 [http-nio-8091-exec-10] INFO  RootNode               -af74af2b-30a3-4267-a1a7-bc875ffc7221 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:53.140 [http-nio-8091-exec-10] INFO  SwitchNode             -af74af2b-30a3-4267-a1a7-bc875ffc7221 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:53.148 [http-nio-8091-exec-10] INFO  MarketNode             -af74af2b-30a3-4267-a1a7-bc875ffc7221 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.11:59:53.149 [http-nio-8091-exec-10] INFO  MarketNode             -af74af2b-30a3-4267-a1a7-bc875ffc7221 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:53.149 [http-nio-8091-exec-10] INFO  ZJCalculateService     -af74af2b-30a3-4267-a1a7-bc875ffc7221 优惠策略折扣计算:0
+26-04-23.11:59:53.151 [http-nio-8091-exec-10] INFO  EndNode                -af74af2b-30a3-4267-a1a7-bc875ffc7221 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.11:59:53.172 [http-nio-8091-exec-10] INFO  MarketIndexController  -af74af2b-30a3-4267-a1a7-bc875ffc7221 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:10:52"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.12:00:00.013 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.12:00:00.015 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.12:00:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.12:01:00.018 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.12:01:00.018 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.12:01:00.020 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.12:01:09.265 [http-nio-8091-exec-1] INFO  MarketTradeController  -fc22b19f-d15b-4384-b659-a1120b96803a 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916869256ls","source":"s01","userId":"只是一只兔"}
+26-04-23.12:01:09.265 [http-nio-8091-exec-1] INFO  TradeLockOrderService  -fc22b19f-d15b-4384-b659-a1120b96803a 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:6916869256ls
+26-04-23.12:01:09.270 [http-nio-8091-exec-1] INFO  RootNode               -fc22b19f-d15b-4384-b659-a1120b96803a 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:01:09.270 [http-nio-8091-exec-1] INFO  SwitchNode             -fc22b19f-d15b-4384-b659-a1120b96803a 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:01:09.272 [http-nio-8091-exec-1] INFO  MarketNode             -fc22b19f-d15b-4384-b659-a1120b96803a 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.12:01:09.272 [http-nio-8091-exec-1] INFO  MarketNode             -fc22b19f-d15b-4384-b659-a1120b96803a 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:01:09.272 [http-nio-8091-exec-1] INFO  ZJCalculateService     -fc22b19f-d15b-4384-b659-a1120b96803a 优惠策略折扣计算:0
+26-04-23.12:01:09.273 [http-nio-8091-exec-1] INFO  EndNode                -fc22b19f-d15b-4384-b659-a1120b96803a 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:01:09.273 [http-nio-8091-exec-1] INFO  TradeLockOrderService  -fc22b19f-d15b-4384-b659-a1120b96803a 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.12:01:09.273 [http-nio-8091-exec-1] INFO  ActivityUsabilityRuleFilter -fc22b19f-d15b-4384-b659-a1120b96803a 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.12:01:09.275 [http-nio-8091-exec-1] INFO  UserTakeLimitRuleFilter -fc22b19f-d15b-4384-b659-a1120b96803a 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.12:01:09.277 [http-nio-8091-exec-1] INFO  UserTakeLimitRuleFilter -fc22b19f-d15b-4384-b659-a1120b96803a 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.12:01:09.277 [http-nio-8091-exec-1] ERROR MarketTradeController  -fc22b19f-d15b-4384-b659-a1120b96803a 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"6916869256ls","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.12:02:00.008 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.12:02:00.009 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.12:02:00.012 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.12:02:01.266 [http-nio-8091-exec-4] INFO  RateLimiterAOP         -b582e90f-eafc-4eb8-a7cb-f817a00abf51 aop attr 只是一只兔
+26-04-23.12:02:01.266 [http-nio-8091-exec-4] INFO  MarketIndexController  -b582e90f-eafc-4eb8-a7cb-f817a00abf51 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.12:02:01.266 [http-nio-8091-exec-4] INFO  RootNode               -b582e90f-eafc-4eb8-a7cb-f817a00abf51 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:01.266 [http-nio-8091-exec-4] INFO  SwitchNode             -b582e90f-eafc-4eb8-a7cb-f817a00abf51 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:01.274 [http-nio-8091-exec-4] INFO  MarketNode             -b582e90f-eafc-4eb8-a7cb-f817a00abf51 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.12:02:01.274 [http-nio-8091-exec-4] INFO  MarketNode             -b582e90f-eafc-4eb8-a7cb-f817a00abf51 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:01.274 [http-nio-8091-exec-4] INFO  ZJCalculateService     -b582e90f-eafc-4eb8-a7cb-f817a00abf51 优惠策略折扣计算:0
+26-04-23.12:02:01.275 [http-nio-8091-exec-4] INFO  EndNode                -b582e90f-eafc-4eb8-a7cb-f817a00abf51 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:01.293 [http-nio-8091-exec-4] INFO  MarketIndexController  -b582e90f-eafc-4eb8-a7cb-f817a00abf51 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:08:44"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.12:02:47.125 [http-nio-8091-exec-3] INFO  RateLimiterAOP         -65a7f969-618c-4b64-9448-fa99ea3ba5ca aop attr 只是一只兔
+26-04-23.12:02:47.125 [http-nio-8091-exec-3] INFO  MarketIndexController  -65a7f969-618c-4b64-9448-fa99ea3ba5ca 查询拼团营销配置开始:只是一只兔 goodsId:9890001
+26-04-23.12:02:47.125 [http-nio-8091-exec-3] INFO  RootNode               -65a7f969-618c-4b64-9448-fa99ea3ba5ca 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:47.125 [http-nio-8091-exec-3] INFO  SwitchNode             -65a7f969-618c-4b64-9448-fa99ea3ba5ca 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:47.137 [http-nio-8091-exec-3] INFO  MarketNode             -65a7f969-618c-4b64-9448-fa99ea3ba5ca 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.12:02:47.137 [http-nio-8091-exec-3] INFO  MarketNode             -65a7f969-618c-4b64-9448-fa99ea3ba5ca 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:47.137 [http-nio-8091-exec-3] INFO  ZJCalculateService     -65a7f969-618c-4b64-9448-fa99ea3ba5ca 优惠策略折扣计算:0
+26-04-23.12:02:47.139 [http-nio-8091-exec-3] INFO  EndNode                -65a7f969-618c-4b64-9448-fa99ea3ba5ca 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:47.162 [http-nio-8091-exec-3] INFO  MarketIndexController  -65a7f969-618c-4b64-9448-fa99ea3ba5ca 查询拼团营销配置完成:只是一只兔 goodsId:9890001 response:{"code":"0000","data":{"activityId":100123,"goods":{"deductionPrice":20.00,"goodsId":"9890001","originalPrice":100.00,"payPrice":80.00},"teamList":[{"activityId":100123,"completeCount":0,"lockCount":1,"outTradeNo":"6916546055cr","targetCount":3,"teamId":"47618374","userId":"只是一只兔","validEndTime":1776917446000,"validStartTime":1776916546000,"validTimeCountdown":"00:07:58"}],"teamStatistic":{"allTeamCompleteCount":0,"allTeamCount":10,"allTeamUserCount":21}},"info":"成功"}
+26-04-23.12:02:53.516 [http-nio-8091-exec-2] INFO  MarketTradeController  -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 营销交易锁单:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69169735100u","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:53.516 [http-nio-8091-exec-2] INFO  TradeLockOrderService  -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团交易-查询未支付营销订单:只是一只兔 outTradeNo:69169735100u
+26-04-23.12:02:53.519 [http-nio-8091-exec-2] INFO  RootNode               -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团商品查询试算服务-RootNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:53.519 [http-nio-8091-exec-2] INFO  SwitchNode             -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团商品查询试算服务-SwitchNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:53.523 [http-nio-8091-exec-2] INFO  MarketNode             -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团商品查询试算服务-MarketNode userId:只是一只兔 异步线程加载数据「GroupBuyActivityDiscountVO、SkuVO」完成
+26-04-23.12:02:53.523 [http-nio-8091-exec-2] INFO  MarketNode             -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团商品查询试算服务-MarketNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:53.523 [http-nio-8091-exec-2] INFO  ZJCalculateService     -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 优惠策略折扣计算:0
+26-04-23.12:02:53.524 [http-nio-8091-exec-2] INFO  EndNode                -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团商品查询试算服务-EndNode userId:只是一只兔 requestParameter:{"activityId":100123,"channel":"c01","goodsId":"9890001","source":"s01","userId":"只是一只兔"}
+26-04-23.12:02:53.524 [http-nio-8091-exec-2] INFO  TradeLockOrderService  -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 拼团交易-锁定营销优惠支付订单:只是一只兔 activityId:100123 goodsId:9890001
+26-04-23.12:02:53.524 [http-nio-8091-exec-2] INFO  ActivityUsabilityRuleFilter -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 交易规则过滤-活动的可用性校验只是一只兔 activityId:100123
+26-04-23.12:02:53.527 [http-nio-8091-exec-2] INFO  UserTakeLimitRuleFilter -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 交易规则过滤-用户参与次数校验只是一只兔 activityId:100123
+26-04-23.12:02:53.529 [http-nio-8091-exec-2] INFO  UserTakeLimitRuleFilter -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 用户参与次数校验，已达可参与上限 activityId:100123
+26-04-23.12:02:53.529 [http-nio-8091-exec-2] ERROR MarketTradeController  -ce96b738-e457-49b8-8a0d-ca3581d5b6d2 营销交易锁单业务异常:只是一只兔 LockMarketPayOrderRequestDTO:{"activityId":100123,"channel":"c01","goodsId":"9890001","notifyConfigVO":{"notifyType":"MQ"},"outTradeNo":"69169735100u","source":"s01","userId":"只是一只兔"}
+cn.bugstack.types.exception.AppException: null
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:39)
+	at cn.bugstack.domain.trade.service.lock.filter.UserTakeLimitRuleFilter.apply(UserTakeLimitRuleFilter.java:21)
+	at cn.bugstack.wrench.design.framework.link.model2.chain.BusinessLinkedList.apply(BusinessLinkedList.java:21)
+	at cn.bugstack.domain.trade.service.lock.TradeLockOrderService.lockMarketPayOrder(TradeLockOrderService.java:46)
+	at cn.bugstack.trigger.http.MarketTradeController.lockMarketPayOrder(MarketTradeController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.bugstack.config.TraceIdFilter.doFilterInternal(TraceIdFilter.java:26)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-04-23.12:03:00.017 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.12:03:00.018 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.12:03:00.021 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.12:04:00.014 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务开始执行
+26-04-23.12:04:00.014 [scheduling-1    ] INFO  TradeRefundOrderService - 扫描数据，超时组队未支付订单
+26-04-23.12:04:00.019 [scheduling-1    ] INFO  TimeoutRefundJob       - 超时退单定时任务，未发现超时未支付订单
+26-04-23.12:04:13.773 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+26-04-23.12:04:13.775 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+26-04-23.12:04:14.097 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+26-04-23.12:04:14.768 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+26-04-23.12:04:14.830 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+26-04-23.12:04:14.832 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+26-04-23.12:04:14.890 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+26-04-23.12:04:14.920 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.

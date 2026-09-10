@@ -1,0 +1,117 @@
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的订单 - 拼团团拼团商城</title>
+    <link rel="stylesheet" href="css/order-list.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-icon">🛒</span>
+                    <span class="logo-text">拼团团拼团</span>
+                </a>
+            </div>
+            <div class="header-right">
+                <div class="user-info" id="userInfo">
+                    <span class="user-avatar">👤</span>
+                    <span class="user-name" id="userName">游客</span>
+                </div>
+                <button class="logout-btn" id="logoutBtn">退出</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">📦 我的订单</h1>
+            <p class="page-subtitle">查看和管理您的拼团订单</p>
+        </div>
+
+        <!-- 订单状态筛选 -->
+        <div class="order-tabs">
+            <div class="tab active" data-status="all">全部</div>
+            <div class="tab" data-status="pending_payment">待支付</div>
+            <div class="tab" data-status="pending_group">待成团</div>
+            <div class="tab" data-status="success">已完成</div>
+            <div class="tab" data-status="refunded">已退款</div>
+        </div>
+
+        <!-- 订单列表 -->
+        <div class="order-list" id="orderList">
+            <!-- 加载状态 -->
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>加载中...</p>
+            </div>
+        </div>
+
+        <!-- 空状态 -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-icon">📋</div>
+            <div class="empty-text">暂无订单</div>
+            <div class="empty-subtext">快去参与拼团吧！</div>
+            <button class="go-buy-btn" onclick="window.location.href='index.html'">
+                去拼团
+            </button>
+        </div>
+    </main>
+
+    <!-- 订单详情弹窗 -->
+    <div class="modal-overlay" id="orderDetailModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">×</button>
+            <div class="modal-header">
+                <h3>订单详情</h3>
+            </div>
+            <div class="modal-body">
+                <div class="order-detail-info">
+                    <div class="detail-row">
+                        <span class="label">订单号：</span>
+                        <span class="value" id="detailOrderId">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">拼团 ID：</span>
+                        <span class="value" id="detailTeamId">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">商品名称：</span>
+                        <span class="value" id="detailGoodsName">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">订单状态：</span>
+                        <span class="value" id="detailStatus">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">下单时间：</span>
+                        <span class="value" id="detailCreateTime">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">支付时间：</span>
+                        <span class="value" id="detailPayTime">-</span>
+                    </div>
+                    <div class="detail-row total">
+                        <span class="label">订单金额：</span>
+                        <span class="value price" id="detailAmount">¥0.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" id="modalFooter">
+                <!-- 动态生成操作按钮 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 消息提示 -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/order-list.js"></script>
+</body>
+</html>

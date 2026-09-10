@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手动登录测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+            font-weight: 500;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .message {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .user-list {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9ff;
+            border-radius: 8px;
+        }
+        .user-list h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .user-list p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔑 手动登录测试</h1>
+        
+        <div class="input-group">
+            <label for="username">用户名</label>
+            <input type="text" id="username" placeholder="输入用户名，如：xiaofuge">
+        </div>
+        
+        <button onclick="manualLogin()">登录并跳转到商城</button>
+        
+        <div id="message" class="message"></div>
+        
+        <div class="user-list">
+            <h3>📋 可用测试用户</h3>
+            <p>xiaofuge</p>
+            <p>liergou</p>
+            <p>xfg01 - xfg09</p>
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="login.html" style="color: #667eea;">返回标准登录页</a>
+        </div>
+    </div>
+
+    <script>
+        function manualLogin() {
+            const username = document.getElementById('username').value.trim();
+            const messageDiv = document.getElementById('message');
+            
+            if (!username) {
+                messageDiv.textContent = '请输入用户名';
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+                return;
+            }
+            
+            // 保存登录状态到 localStorage
+            localStorage.setItem('loginToken', username);
+            localStorage.setItem('username', username);
+            
+            // 同时设置 Cookie
+            document.cookie = `loginToken=${username}; path=/; max-age=${7 * 24 * 60 * 60}`;
+            document.cookie = `username=${username}; path=/; max-age=${7 * 24 * 60 * 60}`;
+            
+            // 显示成功消息
+            messageDiv.textContent = '✅ 登录成功！正在跳转到商城...';
+            messageDiv.className = 'message success';
+            messageDiv.style.display = 'block';
+            
+            // 延迟跳转
+            setTimeout(function() {
+                window.location.href = 'index.html';
+            }, 1000);
+        }
+        
+        // 自动填充默认用户名
+        document.getElementById('username').value = 'xiaofuge';
+    </script>
+</body>
+</html>

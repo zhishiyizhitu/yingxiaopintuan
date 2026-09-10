@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录状态测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .info {
+            background: #f0f0ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .info-row {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .label {
+            font-weight: bold;
+            color: #666;
+        }
+        .value {
+            color: #333;
+            margin-left: 10px;
+        }
+        .success {
+            color: #2ed573;
+            font-weight: bold;
+        }
+        .error {
+            color: #ff4757;
+            font-weight: bold;
+        }
+        button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        button.secondary {
+            background: #f0f0f0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 登录状态测试</h1>
+        
+        <div class="info">
+            <div class="info-row">
+                <span class="label">localStorage.loginToken:</span>
+                <span class="value" id="localStorageToken">-</span>
+            </div>
+            <div class="info-row">
+                <span class="label">localStorage.username:</span>
+                <span class="value" id="localStorageUsername">-</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Cookie.loginToken:</span>
+                <span class="value" id="cookieToken">-</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Cookie.username:</span>
+                <span class="value" id="cookieUsername">-</span>
+            </div>
+        </div>
+
+        <div id="loginStatus"></div>
+
+        <div style="margin-top: 20px;">
+            <button onclick="goToLogin()">返回登录页</button>
+            <button onclick="goToMall()">进入商城</button>
+            <button class="secondary" onclick="clearLogin()">清除登录状态</button>
+            <button class="secondary" onclick="location.reload()">刷新页面</button>
+        </div>
+    </div>
+
+    <script>
+        // 检查登录状态
+        function checkLoginStatus() {
+            const localStorageToken = localStorage.getItem('loginToken');
+            const localStorageUsername = localStorage.getItem('username');
+            const cookieToken = getCookie('loginToken');
+            const cookieUsername = getCookie('username');
+
+            document.getElementById('localStorageToken').textContent = localStorageToken || '未设置';
+            document.getElementById('localStorageUsername').textContent = localStorageUsername || '未设置';
+            document.getElementById('cookieToken').textContent = cookieToken || '未设置';
+            document.getElementById('cookieUsername').textContent = cookieUsername || '未设置';
+
+            const userId = localStorageToken || cookieToken;
+            const statusDiv = document.getElementById('loginStatus');
+
+            if (userId) {
+                statusDiv.innerHTML = `
+                    <p class="success">✅ 已登录</p>
+                    <p>当前用户：<strong>${userId}</strong></p>
+                `;
+            } else {
+                statusDiv.innerHTML = `
+                    <p class="error">❌ 未登录</p>
+                    <p>请先登录</p>
+                `;
+            }
+        }
+
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+            return null;
+        }
+
+        function goToLogin() {
+            window.location.href = 'login.html';
+        }
+
+        function goToMall() {
+            const userId = localStorage.getItem('loginToken') || getCookie('loginToken');
+            if (userId) {
+                window.location.href = 'index.html';
+            } else {
+                alert('请先登录！');
+                goToLogin();
+            }
+        }
+
+        function clearLogin() {
+            localStorage.removeItem('loginToken');
+            localStorage.removeItem('username');
+            localStorage.removeItem('rememberedUsername');
+            document.cookie = 'loginToken=; path=/; max-age=0';
+            document.cookie = 'username=; path=/; max-age=0';
+            alert('登录状态已清除');
+            location.reload();
+        }
+
+        // 页面加载时检查
+        checkLoginStatus();
+    </script>
+</body>
+</html>
