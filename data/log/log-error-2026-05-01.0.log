@@ -1,0 +1,64 @@
+26-05-01.16:31:37.429 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:31:37.473 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:32:25.783 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:32:25.805 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:34:00.329 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:34:00.350 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
+26-05-01.16:40:23.231 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DCCController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dynamicConfigCenterRedisTopic' available
+26-05-01.16:40:23.272 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'dynamicConfigCenterRedisTopic' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'dynamicConfigCenterRedisTopic' in your configuration.
+
